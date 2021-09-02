@@ -8,6 +8,9 @@ namespace TicTacToeGame
         {
             Console.WriteLine(" Welcome To TicTacToe Game ");
             Console.WriteLine("----------------------------");
+            //Object of Board
+            Board board = new Board();
+            Board.UserSymbol();
 
         }
     }
